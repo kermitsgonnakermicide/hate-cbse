@@ -74,6 +74,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 0.15
         }
       ],
       "drc_exclusions": [],
@@ -211,8 +216,10 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.3,
         0.4,
+        0.6,
         2.0
       ],
       "tuning_pattern_settings": {
@@ -511,7 +518,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -664,7 +671,7 @@
         "uuid": "e7266590-461f-4c62-a424-91f23052a300"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR44,#PWR79-80",
     "variants": []
   },
   "sheets": [
