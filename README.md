@@ -16,10 +16,23 @@ for additional context, please view this [youtube video](https://www.youtube.com
 - while I initially thought I would skip on making a full on PCB for this project, you only hackclub once so I decided to make my own, printer motherboard-esque concotion around an RP2350B and the TMC2209 steppers(sticking with the breakout boards for that one purely because of cost)
 - firmware wise, i'm not smart enough to write CNC plotter firmware so I'm using grblHAL, an opensource piece of firmware for all kinds of CNC plotters - you can check out Firmware/ for my config and and firmware file
 
+# setup guide
+- print and assemble the PCB(personally, i'm skipping all THT components for JLC assembly including a couple caps and resistors because I have them at home and they're for imp stuff(would appreciate being able to swap them out))
+- print all files in production/Prints (quantity is indicated in the filename)
+- assemble the frame(you will need a lot of T nuts for the alumnium extrusions)
+- mount the PCB backplate, the motor holders + motor, belt guide
+- assemble the toolhead and its profile, along with its linear actuator
+- route your timing belts through center, motor pulley and ends
+![alt text](image.png)
+> use this image for reference!
+- put PCB on backplate, wire servos, steppers and limit switches to the board and anything else you want to add(I exposed a lot of power and I2C pins)
+- give it USB power and 12v 5A power from your favourite power source(personally using my benchtop powersupply, but you could use anything)
+- flash firmware and get to plotting!
+
+
 # Images
 ![image](Assets/render_cad.png)
 > full render
-
 
 ![image](Assets/3D_PCB.png)
 >PCB render
