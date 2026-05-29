@@ -29,6 +29,9 @@ for additional context, please view this [youtube video](https://www.youtube.com
 - give it USB power and 12v 5A power from your favourite power source(personally using my benchtop powersupply, but you could use anything)
 - flash firmware and get to plotting!
 
+# note for reviewer(s)
+this project will be partially self funded out of sheer necessity, so please do not be concerned about any excess BOM cost
+
 
 # Images
 ![image](Assets/render_cad.png)
