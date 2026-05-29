@@ -23,7 +23,7 @@ for additional context, please view this [youtube video](https://www.youtube.com
 - mount the PCB backplate, the motor holders + motor, belt guide
 - assemble the toolhead and its profile, along with its linear actuator
 - route your timing belts through center, motor pulley and ends
-![alt text](image.png)
+![alt text](assets/image.png)
 > use this image for reference!
 - put PCB on backplate, wire servos, steppers and limit switches to the board and anything else you want to add(I exposed a lot of power and I2C pins)
 - give it USB power and 12v 5A power from your favourite power source(personally using my benchtop powersupply, but you could use anything)
@@ -34,7 +34,7 @@ this project will be partially self funded out of sheer necessity, so please do 
 
 
 # Images
-![image](Assets/render_cad.png)
+![image](Assets/zine_cad_render.png)
 > full render
 
 ![image](Assets/3D_PCB.png)
@@ -45,3 +45,6 @@ this project will be partially self funded out of sheer necessity, so please do 
 
 ![image](Assets/schematic.png)
 > cleaned up schematic
+
+# Zine
+![image](Assets/zine.png)
